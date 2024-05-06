@@ -1,8 +1,10 @@
+import {Link} from 'react-router-dom'
+
 const Navbar = () => {
     return <div className='navbar-container'>
-        <a href='/'>Home</a>
-        <a href='/image-generator'>Image Generator</a>
-        <a href='/history'>History</a>
+        <Link to='/'>Home</Link>
+        <Link to='/image-generator'>Image Generator</Link>
+        <Link to='/history'>History</Link>
     </div>
 }
 
